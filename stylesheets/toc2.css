@@ -1,0 +1,42 @@
+@media screen {
+  body {
+    max-width: 50em; /* approximately 80 characters wide */
+    margin-left: 16em;
+  }
+
+  #toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 13em;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+    margin: 0;
+    overflow: auto;
+    border-right: 3px solid #f8f8f8;
+    background-color: white;
+  }
+
+  #toc .toclevel1 {
+    margin-top: 0.25em;
+    font-weight: bold;
+  }
+  
+  #toc .toclevel2 {
+    margin-top: 0.25em;
+    margin-left: 1em;
+    color: #aaaaaa;
+  }
+
+  #toc .toclevel3 {
+    margin-top: 0.25em;
+    margin-left: 2em;
+    color: #aaaaaa;
+    font-size: smaller;
+  }
+
+  #toctitle {
+    margin-top: 0.5em;
+  }
+}
