@@ -13,7 +13,7 @@ Safety Critical Advisory Panel’s minimum requirements for developing a safety 
 Chapters or sections in a document is designated by numbers following the prefix document name. This is followed by a title or description. The title is followed if present by the Khrono SCAP Bugzilla issue number where the subject matter originated and is tracked.  
 
 File name formating:
-DocumentName | Section/chapter | Section title/description | [Bugzilla #xxxx].adoc
+DocumentName | Section/chapter | [Bugzilla #xxxx] | Section title/description.adoc
 
 Files that are common are duplicated in other SCAP documents like SCAP-Guidelines (in a file system they would be shared instead).
 
