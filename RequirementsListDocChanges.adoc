@@ -1,0 +1,26 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements document change history
+//
+// Note: Move the {docdate} to the current working revision replacing the previous
+//       revision and a hard coded date
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+=== Document Change History
+
+List of the changes that have occurred between one or more releases.
+
+[cols="^4,^5,10", width="90%", options="header", frame="topbot"]
+|=============================
+|Revision | Date                         | Changes 
+|0.01     | {docdate}                    | Initial Asciidoc document layout
+|1.0      | [red yellow-background]#???# | First revision
+|=============================

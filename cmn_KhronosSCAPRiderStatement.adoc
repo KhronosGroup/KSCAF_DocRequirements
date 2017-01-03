@@ -1,0 +1,15 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Khronos SCAP rider statement about how this document should not
+//              be taken as satisfiying the safety requirements for item.
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+An implement of a Khronos SC API standard which passes its appropriate Khronos conformant tests should not be taken that the SC implementation in question has meet all the requirements for its specific usage. The Khronos conformant tests only show the implementation has reached a specified standard of accuracy and behaviour required for Khronos approval.

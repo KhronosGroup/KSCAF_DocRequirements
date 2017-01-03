@@ -1,0 +1,21 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements Appendices
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+Appendices
+----------
+include::Requirements_Appendix_A_1.adoc[]
+
+<<<
+include::Requirements_Appendix_B_1.adoc[]
+

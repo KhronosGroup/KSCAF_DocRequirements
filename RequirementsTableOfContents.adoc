@@ -1,0 +1,14 @@
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements table of contents
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+.***This does not work as expected, TOC should start here ***
+toc::[] 

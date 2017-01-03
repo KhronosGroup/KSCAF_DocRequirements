@@ -1,0 +1,29 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements 3.1 Requirements list
+//
+// Notes: The hyperlink ID, <<b?????,?>> for each requirement orguideline in 
+//        this documents is a representaion of Khronos SCAP Bugzilla issue 
+//        tracking number. The letter 'b' before the number must be present for 
+//        Asciidoc to accept and create a hyperlink.
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+=== Requirements list
+
+The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
+
+[cols="^4,10", width="90%", options="header", frame="topbot"]
+|=============================
+|Requirement | Description 
+|<<b15991,1>>  | Memory management
+|2  | [red yellow-background]#xxxxx#
+|3  | [red yellow-background]#xxxxxx#
+|=============================

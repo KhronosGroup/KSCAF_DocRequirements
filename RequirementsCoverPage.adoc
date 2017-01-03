@@ -1,0 +1,32 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: SCAP Requirements cover page
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+image::images/KhronosGrpLogo.png[]
+
+[cols="^s", width="100%", frame=""]
+|=============================
+
+[big]*Khronos Safety Critical API Development Requirements +
+(Provisional)* +
+
+_Version: {doc_version}_  +
+_Document Revision: {doc_revision}_ +
+_Document Revision Date: {doc_date}_ +
+_Documents: 1 of [red yellow-background]#3#_ 
+
+
+Khronos Safety Critical Advisory Panel (SCAP)
+
+_Editor:_ Illya Rudkin
+
+|=============================

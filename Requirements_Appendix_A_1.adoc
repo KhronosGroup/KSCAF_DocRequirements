@@ -1,0 +1,18 @@
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements Appendix A 
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+=== Appendix A - Additional information in detail
+
+===== Appendix A.1
+
+Some information in more details perhaps some diagrams.
+

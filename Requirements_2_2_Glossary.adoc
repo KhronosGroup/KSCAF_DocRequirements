@@ -1,0 +1,24 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements 2.2 Glossary
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+=== Glossary
+
+List of terms or definitions used within this document.
+
+[cols="3,10", width="90%", options="header", frame="topbot"]
+|=============================
+|Term | Description 
+|API  | Application program interface 
+|SC   | Safe Critical 
+|SCAP | Safe Critical API Panel
+|=============================

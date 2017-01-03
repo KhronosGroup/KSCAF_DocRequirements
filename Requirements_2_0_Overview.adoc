@@ -1,0 +1,24 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements 2.0 Overview
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.01
+
+== Overview
+
+Some Khronos SCAP overview text
+
+The SCAP is an IP free zone. Information, principles, requirements and guidelines are about safety critical
+specifications in general. SCAP do not discuss anything that may contain intellectual
+property or have IP implications in the SCAP. Implementation details belong in other Khronos working groups.
+
+include::Requirements_2_1_SCAPRiderStatement.adoc[]
+
+include::Requirements_2_2_Glossary.adoc[]
