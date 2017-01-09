@@ -12,7 +12,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.01
+:Revision: 0.02
 
 === Document Change History
 
@@ -21,6 +21,7 @@ List of the changes that have occurred between one or more releases.
 [cols="^4,^5,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Revision | Date                         | Changes 
-|0.01     | {docdate}                    | Initial Asciidoc document layout
+|0.01     | 2016-12-01                    | Initial Asciidoc document layout setup and style, no content.
+|0.02     | {docdate}                    | Add content or fix content
 |1.0      | [red yellow-background]#???# | First revision
 |=============================
