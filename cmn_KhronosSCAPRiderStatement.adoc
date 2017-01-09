@@ -12,4 +12,4 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-An implementation of a Khronos SC API standard which passes its appropriate Khronos conformant tests should not be taken that the SC implementation in question has meet all the requirements for its specific usage. The Khronos conformant tests only show the implementation has reached a specified standard of accuracy and behaviour required for Khronos approval.
+IMPORTANT: An implementation of a Khronos SC API standard which passes its appropriate Khronos conformant tests should not be taken that the SC implementation in question has meet all the requirements for its specific usage. The Khronos conformant tests only show the implementation has reached a specified standard of accuracy and behaviour required for Khronos approval.
