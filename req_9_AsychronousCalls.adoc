@@ -1,0 +1,19 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP requirements document
+
+
+:Author: Daniel Herring
+:Author Initials: DMH
+:Revision: 0.01
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_RequirementList.adoc 
+[[gh9]]
+
+==== Asynchronous Calls
+
+Asynchronous calls are those which are initiated by the program but may not execute or use their parameter data until a later time. Safety Critical APIs shall be clearly define when any parameter data is used, especially data which is passed via reference or pointer. When pointers are used for output parameters to Asynchronous functions the API shall clearly define when the data is copied to the output parameter. If the output data is populated after an asynchronous event the API shall define a means by which the program can check to validate the data has been written to the output. If a pointer is used for an input to the function the API shall define when the data is used and when that buffer may be reused by the application.
+
+The API shall also define when the parameters can be changed and reused by the program. When API internal data structures are used by a program the life of the variable shall be defined; including when the internal data structure can be reused, if the data must be in the data structure prior to a specific call, and if the data is changed in a way that the application can view the change.
+
+All asynchronous function shall provide a mean to allow the application to determine completion of the function.

@@ -19,3 +19,5 @@ include::Requirements_3_1_RequirementsList.adoc[]
 
 include::Requirements_3_2_1_15991_MemManagement.adoc[]
 
+include::req_9_AsychronousCalls.adoc[]
+

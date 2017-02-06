@@ -24,6 +24,6 @@ The following is a list of all the SCAP requirements when considering designing 
 |=============================
 |Requirement | Description 
 |<<b15991,1>>  | Memory management
-|2  | [red yellow-background]#xxxxx#
+|<<gh9,2>> | Asynchronous Calls
 |3  | [red yellow-background]#xxxxxx#
 |=============================
