@@ -1,0 +1,22 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements 3.2.1 Requirement Bugzilla #15991
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.02
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_RequirementList.adoc 
+[[gh1]]
+
+==== 2 Deterministic behavior
+
+For the API to be deterministic, no randomness or unpredictability in the development of future states of the system may exist. A deterministic API will always produce the exact same output, both as far as user experience and in the contract with the application, from a given starting condition or initial state.
+
+This requirement applies to functional and behavioral output only. It does not apply to platform timing or system resources. From an API perspective, the API needs to list and describe all state transitions that occur due to the application calling the API function.

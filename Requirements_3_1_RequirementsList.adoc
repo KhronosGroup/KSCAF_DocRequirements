@@ -23,7 +23,7 @@ The following is a list of all the SCAP requirements when considering designing 
 [cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Requirement | Description 
-|<<b15991,1>>  | Memory management
-|2  | [red yellow-background]#xxxxx#
+|<<b15991,1>> | Memory management
+|<<gh1,2>>    | Deterministic behavior
 |3  | [red yellow-background]#xxxxxx#
 |=============================
