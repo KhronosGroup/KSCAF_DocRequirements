@@ -15,7 +15,9 @@
 
 List of terms or definitions used within this document.
 
-[cols="3,10", width="90%", options="header", frame="topbot"]
+[[TableGlossary, 2.2.1]]
+.Glossary
+[caption="Table 2.2.1: ", cols="3,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Term | Description 
 |API  | Application program interface 

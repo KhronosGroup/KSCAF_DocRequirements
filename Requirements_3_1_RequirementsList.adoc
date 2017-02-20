@@ -20,7 +20,9 @@
 
 The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
 
-[cols="^4,10", width="90%", options="header", frame="topbot"]
+[[TableListOfRequirments, 3.3.1]]
+.List of requirements
+[caption="Table 3.3.1: ", cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Requirement | Description 
 |<<b15991,1>>  | Memory management
