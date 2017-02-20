@@ -7,25 +7,25 @@
 //
 // Description: Requirements 3.1 Requirements list
 //
-// Notes: The hyperlink ID, <<b?????,?>> for each requirement orguideline in 
+// Notes: The hyperlink ID, <<gh?????,?>> for each requirement orguideline in 
 //        this documents is a representaion of Khronos SCAP Bugzilla issue 
-//        tracking number. The letter 'b' before the number must be present for 
+//        tracking number. The letter 'gh' before the number must be present for 
 //        Asciidoc to accept and create a hyperlink.
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
 :Revision: 0.02
 
-=== Requirements list
+=== 3.1 Requirements list
 
 The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
 
-[[TableListOfRequirments, 3.3.1]]
+[[TableListOfRequirments, 3.1.1]]
 .List of requirements
-[caption="Table 3.3.1: ", cols="^4,10", width="90%", options="header", frame="topbot"]
+[caption="Table 3.1.1: ", cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
-|Requirement | Description 
+|Requirement   | Description 
 |<<b15991,1>>  | Memory management
-|<<gh9,2>> | Asynchronous Calls
+|<<gh9,2>>     | Asynchronous Calls
 |3  | [red yellow-background]#xxxxxx#
 |=============================

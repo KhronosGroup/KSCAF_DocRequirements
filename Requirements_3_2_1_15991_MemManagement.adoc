@@ -15,6 +15,6 @@
 // 3_1_RequirementList.adoc 
 [[b15991]]
 
-==== 1 Memory management
+==== 3.2.1 Memory management
 
 Some text about memory management in a SC context.

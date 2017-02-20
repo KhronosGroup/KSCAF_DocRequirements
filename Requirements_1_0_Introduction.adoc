@@ -9,8 +9,8 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.01
+:Revision: 0.02
 
-== Introduction
+== 1.0 Introduction
 
 Some introduction text.
