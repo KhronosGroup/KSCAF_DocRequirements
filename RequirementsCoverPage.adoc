@@ -11,7 +11,7 @@
 :Author Initials: IOR
 :Revision: 0.01
 
-image::images/KhronosGrpLogo.png[]
+image::images/Khronos_500px_May16.png[width=50%]
 
 [cols="^s", width="100%", frame=""]
 |=============================
