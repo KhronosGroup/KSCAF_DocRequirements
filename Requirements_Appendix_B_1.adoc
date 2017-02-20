@@ -13,6 +13,11 @@
 
 === Appendix B - More additional information in detail
 
-===== Appendix B.1
+// Appendix sub-sections numbered using roman numbering
+===== Appendix B.I: Title text
+===== Appendix B.II: Title text
+===== Appendix B.III: Title text
+===== Appendix B.IV: Title text
+===== Appendix B.V: Title text
 
 Some more information in more details perhaps some diagrams.

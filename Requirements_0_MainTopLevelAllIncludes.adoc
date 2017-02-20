@@ -70,5 +70,7 @@ include::Requirements_2_0_Overview.adoc[]
 <<<
 include::Requirements_3_0_Requirements.adoc[]
 
+:numbered!:
+
 <<<
 include::Requirements_Appendices.adoc[]
