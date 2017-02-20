@@ -13,8 +13,8 @@
 
 === Acknowledgements
 
-Safety Critical API Development guidelines,
-requirements [red yellow-background]#and ??? (doc 3)# is the result of the contributions of many people, representing a cross section of the safety critical software development community in a range of industries. Following is a partial list of the contributors, including the company that they represented as the time of their contribution:
+Safety Critical API Development guidelines and
+requirements is the result of the contributions by many people, representing a cross section of the safety critical software development community in a range of industries. Following is a partial list of the contributors, including the company that they represented as the time of their contribution:
 
 .Working group chair:
 - Erik Noreke, independent
