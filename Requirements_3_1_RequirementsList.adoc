@@ -16,7 +16,7 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-=== 3.1 Requirements list
+=== Requirements list
 
 The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
 

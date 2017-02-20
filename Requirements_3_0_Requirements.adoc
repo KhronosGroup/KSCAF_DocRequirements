@@ -11,7 +11,7 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-== 3.0 Requirements
+== Requirements
 
 Some text about requirements in general. Refer to the rider statement.
 

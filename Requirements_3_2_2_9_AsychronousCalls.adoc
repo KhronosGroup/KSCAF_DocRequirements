@@ -11,7 +11,7 @@
 // 3_1_RequirementList.adoc 
 [[gh9]]
 
-==== 3.2.2 Asynchronous Calls
+==== 2 Asynchronous Calls
 
 Asynchronous calls are those which are initiated by the program but may not execute or use their parameter data until a later time. Safety Critical APIs shall be clearly define when any parameter data is used, especially data which is passed via reference or pointer. When pointers are used for output parameters to Asynchronous functions the API shall clearly define when the data is copied to the output parameter. If the output data is populated after an asynchronous event the API shall define a means by which the program can check to validate the data has been written to the output. If a pointer is used for an input to the function the API shall define when the data is used and when that buffer may be reused by the application.
 
