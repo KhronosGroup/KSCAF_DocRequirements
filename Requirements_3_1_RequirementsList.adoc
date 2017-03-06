@@ -16,7 +16,10 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-=== Requirements list
+// Automatic section numbering, use {counter:section-id}  
+:section-id: 0
+
+=== {chapter-id}.{counter:chapter-sub-id}. Requirements list
 
 The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
 
@@ -25,7 +28,7 @@ The following is a list of all the SCAP requirements when considering designing 
 [caption="Table 3.1.1: ", cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Requirement   | Description 
-|<<b15991,1>>  | Memory management
-|<<gh9,2>>     | Asynchronous Calls
+|<<b15991,{counter:section-id}>>  | Memory management
+|<<gh9,{counter:section-id}>>     | Asynchronous Calls
 |3  | [red yellow-background]#xxxxxx#
 |=============================

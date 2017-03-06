@@ -11,6 +11,6 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-== Introduction
+== {counter:chapter-id}. Introduction
 
 Some introduction text.

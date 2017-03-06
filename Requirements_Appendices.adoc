@@ -12,6 +12,9 @@
 :Author Initials: IOR
 :Revision: 0.01
 
+// Automatic appendix lettering, use {counter:appendix-id}  
+:appendix-id: @ 
+
 Appendices
 ----------
 include::Requirements_Appendix_A_1.adoc[]

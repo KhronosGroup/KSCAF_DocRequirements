@@ -15,6 +15,6 @@
 // 3_1_RequirementList.adoc 
 [[b15991]]
 
-==== 1 Memory management
+==== {chapter-id}.{counter:chapter-sub-id}.{counter:section-id}. Memory management
 
 Some text about memory management in a SC context.

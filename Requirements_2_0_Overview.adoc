@@ -11,7 +11,10 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-== Overview
+// Automatic chapter sub numbering, use {counter:chapter-sub-id}  
+:chapter-sub-id: 0
+
+== {counter:chapter-id}. Overview
 
 Some Khronos SCAP overview text
 
