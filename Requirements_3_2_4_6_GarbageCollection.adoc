@@ -1,0 +1,24 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP requirements document
+// Text format: asciidoc 8.6.9  
+// Editor: Asciidoc Book Editor
+
+:Author: Daniel Herring
+:Author Initials: DMH
+:Revision: 0.02
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_RequirementList.adoc 
+[[gh6]]
+
+==== 4 Garbage Collection Methods
+
+Similar to asynchronous immediately handled events, automatic garbage collection can have similar 
+problems where the worst case execution time of a system can be very hard to quantify for safety
+certification. As such APIs should not define an automatic garbage collection mechanism which
+may be triggered by an event other than the application specifically invoking a garbage collection
+function. Where the API uses reference counting to determine when to start garbage collection 
+activities the API should only allow changes to the reference count to be caused by the application.
+At no points should the application allow a secondary processing entity to change the reference count
+outside of control of the application.
+
