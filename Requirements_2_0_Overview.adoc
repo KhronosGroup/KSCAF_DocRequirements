@@ -23,3 +23,6 @@ The requirements contained here are considered mandatory on the advice from expe
 include::Requirements_2_1_SCAPRiderStatement.adoc[]
 
 include::Requirements_2_2_Glossary.adoc[]
+
+include::Requirements_2_3_Terminology.adoc[]
+
