@@ -11,9 +11,6 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-The key words *must*, *required*, *shall*, *should*, *recommend*, *may*, and *optional* in this document are to be interpreted as described in RFC 2119: 
-http://www.ietf.org/rfc/rfc2119.txt.
-
 ===== requirement
 When used with reference in the context of the Khronos SC Requirements Document the word requirement means a requirement listed in the table of requirements or a requirement sub-part is compulsory, a necessary condition, behavior or action that must be implemented or carried out.
 
@@ -43,4 +40,6 @@ This word means that the particular behavior described is not achievable by an a
 
 NOTE: There is an important distinction between *cannot* and *must not*, as used in this document. *Cannot* means something the application literally is unable to express or accomplish through the API, while *must not* means something that the application is capable of expressing through the API, but that the consequences of doing so are undefined and potentially unrecoverable for the implementation. 
 
+NOTE: The key words *must*, *required*, *shall*, *should*, *recommend*, *may*, and *optional* in this document are to be interpreted as described in RFC 2119: 
+http://www.ietf.org/rfc/rfc2119.txt.
 
