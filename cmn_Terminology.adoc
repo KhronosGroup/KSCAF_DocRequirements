@@ -14,6 +14,12 @@
 The key words *must*, *required*, *shall*, *should*, *recommend*, *may*, and *optional* in this document are to be interpreted as described in RFC 2119: 
 http://www.ietf.org/rfc/rfc2119.txt.
 
+===== requirement
+When used with reference in the context of the Khronos SC Requirements Document the word requirement means a requirement listed in the table of requirements or a requirement sub-part is compulsory, a necessary condition, behavior or action that must be implemented or carried out.
+
+===== guideline
+When used with reference in the context of the Khronos SC Guidelines Document the word guideline means a guideline listed in the table of guidelines or a guideline sub-part is a principle, piece of advice, instruction that by the discretion of the reader may or may not be implemented or carry out.
+
 ===== must 
 When used alone, this word, or the term required, means that the definition is an absolute requirement of the specification. When followed by not (“must not” ), the phrase means that the definition is an absolute prohibition of the specification. 
 
