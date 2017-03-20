@@ -16,6 +16,9 @@
 :Author Initials: IOR
 :Revision: 0.02
 
+// Automatic section numbering, use {counter:section-id}
+:section-id: 0
+
 === Requirements list
 
 The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
@@ -23,7 +26,7 @@ The following is a list of all the SCAP requirements when considering designing 
 [cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Requirement | Description 
-|<<b15991,1>> | Memory management
-|<<gh1,2>>    | Deterministic behavior
+|<<b15991,{counter:section-id}>> | Memory management
+|<<gh1,{counter:section-id}>>    | Deterministic behavior
 |3  | [red yellow-background]#xxxxxx#
 |=============================
