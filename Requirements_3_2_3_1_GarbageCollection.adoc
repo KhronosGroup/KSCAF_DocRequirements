@@ -1,0 +1,18 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP requirements document
+// Text format: asciidoc 8.6.9  
+// Editor: Asciidoc Book Editor
+
+:Author: Daniel Herring
+:Author Initials: DMH
+:Revision: 0.02
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_RequirementList.adoc 
+[[gh9]]
+
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Garbage Collection shall be explicitly defined
+
+When an API defines the use of automatic garbage collection mechanisms the API should provide means to explicitly invoke the garbage collection algorithms. Garbage collection should only be done during an explicit invocation of garbage collector.
+
+In APIs where garbage collection reference counting is done by multiple processes, i.e. CPU and GPU, or multiple threads. The automatic garbage collection of objects can cause non deterministic behavior within an executing program.
