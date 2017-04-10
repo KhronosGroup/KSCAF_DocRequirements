@@ -11,6 +11,7 @@
 // 3_1_RequirementList.adoc 
 [[gh9]]
 
+
 ==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Garbage Collection shall be explicitly defined
 
 When an API defines the use of automatic garbage collection mechanisms the API should provide means to explicitly invoke the garbage collection algorithms. Garbage collection should only be done during an explicit invocation of garbage collector.
