@@ -11,7 +11,7 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-=== Glossary
+=== {chapter-id}.{counter:chapter-sub-id}. Glossary
 
 List of terms or definitions used within this document.
 

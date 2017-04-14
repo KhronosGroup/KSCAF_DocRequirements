@@ -11,13 +11,15 @@
 :Author Initials: IOR
 :Revision: 0.01
 
-=== Appendix B - More additional information in detail
+=== Appendix {counter:appendix-id} 
+
+More additional information in detail
 
 // Appendix sub-sections numbered using roman numbering
-===== Appendix B.I: Title text
-===== Appendix B.II: Title text
-===== Appendix B.III: Title text
-===== Appendix B.IV: Title text
-===== Appendix B.V: Title text
+===== Appendix {appendix-id}.I: Title text
+===== Appendix {appendix-id}.II: Title text
+===== Appendix {appendix-id}.III: Title text
+===== Appendix {appendix-id}.IV: Title text
+===== Appendix {appendix-id}.V: Title text
 
 Some more information in more details perhaps some diagrams.
