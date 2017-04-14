@@ -5,16 +5,12 @@
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
-// Description: Requirements 3.2.1 Requirement Bugzilla #15991
+// Description: Requirements 2.3 Terminology
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
 :Revision: 0.02
 
-// Hyperlink anchor, the ID matches those in 
-// 3_1_RequirementList.adoc 
-[[b15991]]
+=== {chapter-id}.{counter:chapter-sub-id}. Terminology
 
-==== {chapter-id}.{counter:chapter-sub-id}.{counter:section-id}. Memory management
-
-Some text about memory management in a SC context.
+include::cmn_Terminology.adoc[]

@@ -11,13 +11,23 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-== Requirements
+// Automatic chapter sub numbering, use {counter:chapter-sub-id}  
+:chapter-sub-id: 0
 
-Some text about requirements in general. Refer to the rider statement.
+== {counter:chapter-id}. Requirements
+
+The requirements listed in table 3.1.1 are all the requirements in this document. However this list is continuously revised with new requirements being added on a regular basis. 
+
+IMPORTANT: It is therefore recommended that the requirements be periodically reviewed for new or updated requirements.
+
+TIP: If you wish to contribute to the requirements please contact the SCAP working group chair person. 
 
 include::Requirements_3_1_RequirementsList.adoc[]
 
 include::Requirements_3_2_1_15991_MemManagement.adoc[]
 
 include::Requirements_3_2_2_1_Deterministic.adoc[]
+
+include::Requirements_3_2_2_9_AsychronousCalls.adoc[]
+
 

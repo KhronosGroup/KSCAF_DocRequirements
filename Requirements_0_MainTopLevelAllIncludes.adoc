@@ -41,10 +41,12 @@
 :doc_revision: 1   
 :doc_version: 0.01 
 :toc-placement: manual
-:toclevels: 3
+:toclevels: 2
 :toc:
 :toc2:
-:numbered:
+
+// Automatic chapter numbering, use {counter:chapter-id}  
+:chapter-id: 0
 
 <<<
 include::RequirementsCoverPage.adoc[]
@@ -61,8 +63,6 @@ include::cmn_Acknowledgements.adoc[]
 <<<
 include::RequirementsListDocChanges.adoc[]
 
-toc::[]
-
 <<<
 include::Requirements_1_0_Introduction.adoc[]
 
@@ -71,6 +71,8 @@ include::Requirements_2_0_Overview.adoc[]
 
 <<<
 include::Requirements_3_0_Requirements.adoc[]
+
+:numbered!:
 
 <<<
 include::Requirements_Appendices.adoc[]

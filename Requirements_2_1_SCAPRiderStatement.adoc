@@ -11,6 +11,6 @@
 :Author Initials: IOR
 :Revision: 0.02
 
-=== Khronos SCAP document usage
+=== {chapter-id}.{counter:chapter-sub-id}. Khronos SCAP document usage
 
 include::cmn_KhronosSCAPRiderStatement.adoc[]

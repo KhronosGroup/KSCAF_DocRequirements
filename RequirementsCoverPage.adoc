@@ -11,7 +11,7 @@
 :Author Initials: IOR
 :Revision: 0.01
 
-image::images/KhronosGrpLogo.png[]
+image::images/Khronos_500px_May16.png[width=50%]
 
 [cols="^s", width="100%", frame=""]
 |=============================
@@ -22,7 +22,7 @@ image::images/KhronosGrpLogo.png[]
 _Version: {doc_version}_  +
 _Document Revision: {doc_revision}_ +
 _Document Revision Date: {doc_date}_ +
-_Documents: 1 of [red yellow-background]#3#_ 
+_Documents: 1 of 2_ 
 
 
 Khronos Safety Critical Advisory Panel (SCAP)
