@@ -19,7 +19,7 @@ The API shall also define when the parameters can be changed and reused by the p
 
 All asynchronous functions shall provide a means to allow the application to determine completion of the function.
 
-[width="100%",options="header"]
+[width="70%",options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
 | DO-178C/ED-12C |  |  

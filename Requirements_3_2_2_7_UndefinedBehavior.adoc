@@ -32,3 +32,11 @@ produces due to rules should not be confused with the specified functionality
 and status of an API function (though equally important).
 
 The specification shall always specify what to do with out of bound inputs to APIs.
+
+[width="70%",options="header"]
+|====================
+|**Safety critical standard** | **Relevant** | **Notes**
+| DO-178C/ED-12C |  |  
+| ISO 26262      |  |  
+| IEC 62304      |  |   
+|====================
