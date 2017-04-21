@@ -51,3 +51,11 @@ failure) this requirement still applies.
 Note 1: An SC API implementation while it is conformant to all Khronos
 conformance tests does not guarantee that all all the item’s requirements
 have been met where additional requirements have been specified.
+
+[width="70%",options="header"]
+|====================
+|**Safety critical standard** | **Relevant** | **Notes**
+| DO-178C/ED-12C |  |  
+| ISO 26262      |  |  
+| IEC 62304      |  |   
+|====================

@@ -20,7 +20,7 @@
 Some text about memory management in a SC context.
 
 
-[width="100%",options="header"]
+[width="70%",options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
 | DO-178C/ED-12C |  |  
