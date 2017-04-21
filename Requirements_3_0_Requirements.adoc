@@ -28,4 +28,7 @@ include::Requirements_3_2_1_15991_MemManagement.adoc[]
 
 include::Requirements_3_2_2_9_AsychronousCalls.adoc[]
 
+include::Requirements_3_2_2_8_FullyTestable.adoc[]
+
 include::Requirements_3_2_2_7_UndefinedBehavior.adoc[]
+
