@@ -31,5 +31,6 @@ The following is a list of all the SCAP requirements when considering designing 
 |<<b15991,{counter:section-id}>>  | Memory management
 |<<gh9,{counter:section-id}>>     | Asynchronous Calls
 |<<gh8,{counter:section-id}>>     | Fully Testable
+|<<gh7,{counter:section-id}>>     | Undefined Behavior
 |3  | [red yellow-background]#xxxxxx#
 |=============================
