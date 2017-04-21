@@ -26,3 +26,4 @@ include::Requirements_2_2_Glossary.adoc[]
 
 include::Requirements_2_3_Terminology.adoc[]
 
+include::Requirements_2_4_ReferencedSpecs.adoc[]
