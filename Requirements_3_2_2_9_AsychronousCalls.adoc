@@ -17,7 +17,7 @@ Asynchronous calls are those which are initiated by the program but may not exec
 
 The API shall also define when the parameters can be changed and reused by the program. When API internal data structures are used by a program the life of the variable shall be defined; including when the internal data structure can be reused, if the data must be in the data structure prior to a specific call, and if the data is changed in a way that the application can view the change.
 
-All asynchronous function shall provide a mean to allow the application to determine completion of the function.
+All asynchronous functions shall provide a means to allow the application to determine completion of the function.
 
 [width="100%",options="header"]
 |====================
