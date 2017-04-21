@@ -1,0 +1,34 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khronos Group Safety Critical API Development SCAP requirements document
+// Text format: asciidoc 8.6.9  
+// Editor: Asciidoc Book Editor
+
+:Author: Daniel Herring
+:Author Initials: DMH
+:Revision: 0.02
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_RequirementList.adoc 
+[[gh7]]
+
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Undefined Behavior
+Undefined behavior in a safety critical specification causes issues during
+safety certification efforts due to the lack of firm requirements for the
+given condition. 
+A safety critical specification shall have all conditions fully defined and
+shall not use the word undefined to describe the outcome of any function.
+
+Generally undefined behavior is software that does not behave as expected,
+fails under certain conditions or does not handle error conditions
+appropriately are a result of defects in the code.
+
+From the point of view of an SC API and its usage by a client the
+implementation should not be allowed to entered a state in which the client
+cannot regain control and control the outcome. The implementation will always
+return control and provide a status for all operational cases.
+
+Undefined behavior with regards to a compiler and the resulting code it
+produces due to rules should not be confused with the specified functionality
+and status of an API function (though equally important).
+
+The specification shall always specify what to do with out of bound inputs to APIs.

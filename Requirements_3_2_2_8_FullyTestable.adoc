@@ -1,0 +1,53 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khrono Group Safety Critical API Development SCAP requirements document
+// Text format: asciidoc 8.6.9  
+// Editor: Asciidoc Book Editor
+
+:Author: Daniel Herring
+:Author Initials: DMH
+:Revision: 0.02
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_RequirementList.adoc 
+[[gh8]]
+
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Fully Testable
+
+
+All behavior of the API must be testable. Every item mentioned in the
+specification must be able to be tested in a repeatable manner. An
+undeterministic API cannot be fully tested as behavior may change from run to
+run.
+
+ 
+A requirement may be fully testable but not tested within the scope of
+Khronos conformance tests. Therefore an SC API should contain a rider, or
+Khronos should advertise a general rider that if an API is accepted as
+conformant to an SC API specification this does not guarantee that all
+requirements are met.  
+
+Examples of such a requirements:  
+"An implementation must provide documentation of the values of error codes
+and the circumstances under which they are returned"  
+This is testable by inspection of the documentation, but not testable by
+Khronos conformance tests.  
+"The implementation must not use hardware interrupts"  
+Again, this is testable (by running with interrupts disabled), but presents
+difficulties with conformance tests which are necessarily hardware agnostic.
+
+
+ 
+All aspects of the API; the functions, the combinations of the functions’
+parameters, all enumeration values, all possible return codes specified, must
+be testable in a deterministic and repeatable manner irrespective of how all
+and each function or task is implemented. Being fully testable, deterministic
+and repeatable also extends to functions which are expected to be re-entrant
+or thread-safe.
+
+For the case of negative testing (data values which are known to cause
+failure) this requirement still applies.
+
+
+Note 1: An SC API implementation while it is conformant to all Khronos
+conformance tests does not guarantee that all all the item’s requirements
+have been met where additional requirements have been specified.
