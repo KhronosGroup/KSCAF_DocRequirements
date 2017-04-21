@@ -26,6 +26,8 @@ include::Requirements_3_1_RequirementsList.adoc[]
 
 include::Requirements_3_2_1_15991_MemManagement.adoc[]
 
+include::Requirements_3_2_2_1_Deterministic.adoc[]
+
 include::Requirements_3_2_2_9_AsychronousCalls.adoc[]
 
 include::Requirements_3_2_3_5_PollStateChange.adoc[]
@@ -35,4 +37,3 @@ include::Requirements_3_2_4_6_GarbageCollection.adoc[]
 include::Requirements_3_2_2_8_FullyTestable.adoc[]
 
 include::Requirements_3_2_2_7_UndefinedBehavior.adoc[]
-

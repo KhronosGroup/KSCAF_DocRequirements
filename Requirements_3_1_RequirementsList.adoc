@@ -16,6 +16,7 @@
 :Author Initials: IOR
 :Revision: 0.02
 
+
 // Automatic section numbering, use {counter:section-id}  
 :section-id: 0
 
@@ -29,6 +30,7 @@ The following is a list of all the SCAP requirements when considering designing 
 |=============================
 |Requirement   | Description 
 |<<b15991,{counter:section-id}>>  | Memory management
+|<<gh1,{counter:section-id}>>    | Deterministic behavior
 |<<gh9,{counter:section-id}>>     | Asynchronous Calls
 |<<gh5,{counter:section-id}>>     | Notification of Change of State
 |<<gh6,{counter:section-id}>>     | Garbage Collection Methods
