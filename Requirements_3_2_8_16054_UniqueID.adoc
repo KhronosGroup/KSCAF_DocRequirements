@@ -1,0 +1,31 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khronos Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Guidelines 3.2.6 Guidelines Github #6
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.022
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_GuidelinesList.adoc 
+[[b16054]]
+
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Unique ID
+
+The SC API shall provide the facility to return a run time implementation unique indentifier specific to that runtime so that is may be interrogated at any time. 
+
+For example, such information could be the version number, name, date, release build number or a combination of so that is unique and comprehendible. This information is useful for investigators to understand the components of a system and trace versions with changes.
+
+
+[width="70%",options="header"]
+|====================
+|**Safety critical standard** | **Relevant** | **Notes**
+| DO-178C/ED-12C |     |  
+| ISO 26262      | Yes |  
+| IEC 62304      |     |   
+|====================

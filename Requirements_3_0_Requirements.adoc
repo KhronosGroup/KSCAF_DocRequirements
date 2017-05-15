@@ -37,3 +37,6 @@ include::Requirements_3_2_4_6_GarbageCollection.adoc[]
 include::Requirements_3_2_2_8_FullyTestable.adoc[]
 
 include::Requirements_3_2_2_7_UndefinedBehavior.adoc[]
+
+include::Requirements_3_2_8_16054_UniqueID.adoc[]
+
