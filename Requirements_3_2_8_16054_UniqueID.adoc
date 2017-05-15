@@ -5,14 +5,14 @@
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
-// Description: Guidelines 3.2.6 Guidelines Github #6
+// Description: Requirements 3.2.8 Guidelines Github #6 (BugZilla 16054)
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
 :Revision: 0.022
 
 // Hyperlink anchor, the ID matches those in 
-// 3_1_GuidelinesList.adoc 
+// 3_1_RequirementsList.adoc 
 [[b16054]]
 
 ==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Unique ID

@@ -5,7 +5,7 @@
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
-// Description: Requirements 3.2.1 Requirement Bugzilla #15991
+// Description: Requirements 3.2.1 Bugzilla #15991
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR

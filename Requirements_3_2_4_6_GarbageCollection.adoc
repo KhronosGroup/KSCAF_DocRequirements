@@ -1,7 +1,11 @@
 // (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
-// Khrono Group Safety Critical API Development SCAP requirements document
-// Text format: asciidoc 8.6.9  
-// Editor: Asciidoc Book Editor
+// Khronos Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements 3.2.8 Github #6
 
 :Author: Daniel Herring
 :Author Initials: DMH
