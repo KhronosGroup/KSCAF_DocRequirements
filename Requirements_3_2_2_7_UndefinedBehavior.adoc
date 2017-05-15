@@ -33,7 +33,7 @@ and status of an API function (though equally important).
 
 The specification shall always specify what to do with out of bound inputs to APIs.
 
-[width="70%",options="header"]
+[width="70%", cols=",^,", options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
 | DO-178C/ED-12C |  |  

@@ -28,7 +28,7 @@ For each state transition there shall be a description of the before and after s
 
 If a there is a state transition discovered which is not documented then it is the responsibility of the implementors to report the anomaly to the Khronos Working Group responsible for the SC API specification.
 
-[width="70%",options="header"]
+[width="70%", cols=",^,", options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
 | DO-178C/ED-12C |  |  

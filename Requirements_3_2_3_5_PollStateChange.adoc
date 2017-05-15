@@ -26,7 +26,7 @@ Worst case execution time should be able to be determined by the end system inte
 team through analysis and testing. The API should not rely on or specify the use of asynchronous 
 immediate event handling such as Interrupt Service Routines (ISRs). 
 
-[width="70%",options="header"]
+[width="70%", cols=",^,", options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
 | DO-178C/ED-12C |  |  
