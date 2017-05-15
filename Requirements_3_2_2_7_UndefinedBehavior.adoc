@@ -11,7 +11,7 @@
 // 3_1_RequirementList.adoc 
 [[gh7]]
 
-==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Undefined Behavior
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Undefined behavior
 Undefined behavior in a safety critical specification causes issues during
 safety certification efforts due to the lack of firm requirements for the
 given condition. 

@@ -11,8 +11,7 @@
 // 3_1_RequirementList.adoc 
 [[gh8]]
 
-==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Fully Testable
-
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Fully testable
 
 All behavior of the API must be testable. Every item mentioned in the
 specification must be able to be tested in a repeatable manner. An

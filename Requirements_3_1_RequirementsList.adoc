@@ -30,11 +30,11 @@ The following is a list of all the SCAP requirements when considering designing 
 |=============================
 |Requirement   | Description 
 |<<b15991,{counter:section-id}>>  | Memory management
-|<<gh1,{counter:section-id}>>    | Deterministic behavior
-|<<gh9,{counter:section-id}>>     | Asynchronous Calls
-|<<gh5,{counter:section-id}>>     | Notification of Change of State
-|<<gh6,{counter:section-id}>>     | Garbage Collection Methods
-|<<gh8,{counter:section-id}>>     | Fully Testable
-|<<gh7,{counter:section-id}>>     | Undefined Behavior
+|<<gh1,{counter:section-id}>>     | Deterministic behavior
+|<<gh9,{counter:section-id}>>     | Asynchronous calls
+|<<gh5,{counter:section-id}>>     | Notification of change of state
+|<<gh6,{counter:section-id}>>     | Garbage collection methods
+|<<gh8,{counter:section-id}>>     | Fully testable
+|<<gh7,{counter:section-id}>>     | Undefined behavior
 |3  | [red yellow-background]#xxxxxx#
 |=============================

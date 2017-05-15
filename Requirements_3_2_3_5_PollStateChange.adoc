@@ -11,7 +11,7 @@
 // 3_1_RequirementList.adoc 
 [[gh5]]
 
-==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Notification of Change of State
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Notification of change of state
 
 A hindrance to safety certification is the use of event driven execution of the application. 
 The use of event driven execution can cause the worst case execution time of a system to be 

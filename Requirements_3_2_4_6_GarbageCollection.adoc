@@ -11,7 +11,7 @@
 // 3_1_RequirementList.adoc 
 [[gh6]]
 
-==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Garbage Collection Methods
+==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Garbage collection methods
 
 Similar to asynchronous immediately handled events, automatic garbage collection can have similar 
 problems where the worst case execution time of a system can be very hard to quantify for safety
