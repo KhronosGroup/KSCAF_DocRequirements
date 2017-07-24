@@ -3,7 +3,7 @@ Safety Critical Advisory Panel’s minimum requirements for developing a safety 
 
 ### Khronos SCAP document layout
 
-4 types of document that make up the SCAP principle, requirement and guidelines documentation and the files that represent them. The term document here means the finished document, the output result. Files, the .adoc type, contain text that is included in a document. The following patterns in file names means the following:
+4 types of document that make up the SCAP requiremenst and guidelines documentation and the files that represent them. The term document here means the finished document, the output result. Files, the .adoc type, contain text that is included in a document. The following patterns in file names means the following:
 
 * File suffix .adoc is an Asciidoc file type
 * - Prefix common to .adoc files - files that belong to one document
@@ -12,8 +12,8 @@ Safety Critical Advisory Panel’s minimum requirements for developing a safety 
 
 Chapters or sections in a document is designated by numbers following the prefix document name. This is followed by a title or description. The title is followed if present by the Khrono SCAP Bugzilla issue number where the subject matter originated and is tracked.  
 
-File name formating:
-DocumentName | Section/chapter | [Bugzilla #xxxx] | Section title/description.adoc
+The aim of the file formatting shown here is to automoatically order the document section in the order they would appear in the final document. There is a one to one relation between the file on the subject chapter. This makes it easier to locate a file and match to the Git issue number. File name formating:
+DocumentName | Section | chapter | [Git issue number #xxx] | Section title/description.adoc
 
 Files that are common are duplicated in other SCAP documents like SCAP-Guidelines (in a file system they would be shared instead).
 
