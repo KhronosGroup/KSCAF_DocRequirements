@@ -28,7 +28,6 @@ The following is a list of all the SCAP requirements when considering designing 
 [caption="Table 3.1.1: ", cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Requirement   | Description 
-|<<b15991,{counter:section-id}>>   | Memory management
 |<<gh1,{counter:section-id}>>      | Deterministic behavior
 |<<gh9,{counter:section-id}>>      | Asynchronous calls
 |<<gh5,{counter:section-id}>>      | Notification of change of state

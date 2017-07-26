@@ -24,8 +24,6 @@ TIP: If you wish to contribute to the requirements please contact the SCAP worki
 
 include::Requirements_3_1_RequirementsList.adoc[]
 
-include::Requirements_3_2_1_15991_MemManagement.adoc[]
-
 include::Requirements_3_2_2_1_Deterministic.adoc[]
 
 include::Requirements_3_2_2_9_AsychronousCalls.adoc[]
