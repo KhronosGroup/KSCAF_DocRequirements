@@ -24,7 +24,6 @@
 
 The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
 
-[[TableListOfRequirments, 3.1.1]]
 .List of requirements
 [caption="Table 3.1.1: ", cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
@@ -37,5 +36,4 @@ The following is a list of all the SCAP requirements when considering designing 
 |<<gh8,{counter:section-id}>>      | Fully testable
 |<<gh7,{counter:section-id}>>      | Undefined behavior
 |<<b16054,{counter:section-id}>>   | Unique ID
-|3  | [red yellow-background]#xxxxxx#
 |=============================
