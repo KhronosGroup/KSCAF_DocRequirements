@@ -35,4 +35,5 @@ The following is a list of all the SCAP requirements when considering designing 
 |<<gh8,{counter:section-id}>>      | Fully testable
 |<<gh7,{counter:section-id}>>      | Undefined behavior
 |<<b16054,{counter:section-id}>>   | Unique ID
+|<<gh23,{counter:section-id}>>     | Code complexity
 |=============================

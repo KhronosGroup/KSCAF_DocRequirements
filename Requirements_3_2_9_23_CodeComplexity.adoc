@@ -1,0 +1,32 @@
+// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// Khronos Group Safety Critical API Development SCAP
+// document
+// 
+// Text format: asciidoc 8.6.9
+// Editor:      Asciidoc Book Editor
+//
+// Description: Requirements 3.2.8 Guidelines Github #23 (BugZilla 16054)
+
+:Author: Illya Rudkin (spec editor)
+:Author Initials: IOR
+:Revision: 0.022
+
+// Hyperlink anchor, the ID matches those in 
+// 3_1_RequirementsList.adoc 
+[[gh23]]
+
+=== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Code complexity
+
+Many of the safety standards require that the code is written in the least complex manor. Many software code quality assessment tools score code on its cyclomatic complexity. The less complex means there are likely less linearly independent paths through a program's source code which results in a lower score. A lower score is a better score and is an indication that the code is easier to understand and so modify with less chance of unforeseen behavior.
+
+The API and its functions' signatures play an important part on how the implementation is coded. The number of parameters in a function should kept to a minimum to help reduce complexity.
+
+If numerous parameters are required consider if they are necessary for immediately use or just passing through to other private functions. If that is the case it is good practice to encapsulate those parameters in to an object such as a 'C' structure. Use of a structure not only reduces the size of the function signature it helps reduce the complexity of the code supporting that function and so helps with code maintenance. Should it be required a function's parameter is no longer required or a new one is needed function signatures down the line also do not have to change to handle the change.
+
+[width="70%", cols="3,^,^", options="header"]
+|====================
+|**Safety critical standard** | **Relevant** | **Notes**
+| DO-178C/ED-12C | ✓ |  
+| ISO 26262      | ✓ |  
+| IEC 62304      | ✓ |   
+|====================

@@ -38,3 +38,6 @@ include::Requirements_3_2_2_7_UndefinedBehavior.adoc[]
 
 include::Requirements_3_2_8_16054_UniqueID.adoc[]
 
+include::Requirements_3_2_9_23_CodeComplexity.adoc[]
+
+
