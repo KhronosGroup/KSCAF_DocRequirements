@@ -39,7 +39,7 @@
 :doc_date: {docdate}
 :doctitle: Khronos SCAP Requirements v{doc_version}
 :doc_revision: 1   
-:doc_version: 0.01 
+:doc_version: 0.02 
 :toc-placement: manual
 :toclevels: 2
 :toc:
