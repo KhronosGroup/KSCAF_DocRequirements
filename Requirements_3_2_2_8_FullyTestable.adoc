@@ -15,7 +15,7 @@
 // 3_1_RequirementList.adoc 
 [[gh8]]
 
-==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Fully testable
+=== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Fully testable
 
 All behavior of the API must be testable. Every item mentioned in the
 specification must be able to be tested in a repeatable manner. An
@@ -38,8 +38,6 @@ Khronos conformance tests.
 Again, this is testable (by running with interrupts disabled), but presents
 difficulties with conformance tests which are necessarily hardware agnostic.
 
-
- 
 All aspects of the API; the functions, the combinations of the functions’
 parameters, all enumeration values, all possible return codes specified, must
 be testable in a deterministic and repeatable manner irrespective of how all
@@ -49,7 +47,6 @@ or thread-safe.
 
 For the case of negative testing (data values which are known to cause
 failure) this requirement still applies.
-
 
 Note 1: An SC API implementation while it is conformant to all Khronos
 conformance tests does not guarantee that all all the item’s requirements

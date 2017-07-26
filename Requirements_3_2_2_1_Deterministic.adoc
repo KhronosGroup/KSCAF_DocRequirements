@@ -15,7 +15,7 @@
 // 3_1_RequirementList.adoc 
 [[gh1]]
 
-==== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Deterministic behavior
+=== {chapter-id}.{chapter-sub-id}.{counter:section-id}. Deterministic behavior
 
 For the API to be deterministic, no randomness or unpredictability in the development of future states of the system may exist. A deterministic API will always produce the exact same output, both as far as user experience and in the contract with the application, from a given starting condition or initial state.
 

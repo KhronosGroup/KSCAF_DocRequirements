@@ -21,7 +21,7 @@ https://www.khronos.org/openglsc/ to request membership to the panel.
 Each requirement in this document tries to list the relevancy to the listed development
 guidelines and standards.
 
-=== DO-178C/ED-12C
+==== DO-178C/ED-12C
 *Software Considerations in Airborne Systems and Equipment Certification* is the safety
 critical software development standard used for development avionics software. This
 standard defines 5 levels of safety criticality referred to as Design Assurance
@@ -31,7 +31,7 @@ DAL E software is considered non safety critical. This document strives to allow
 specifications to be compatible with the required DO-178/ED-12C objectives for DAL A
 systems.
 
-=== ISO 26262
+==== ISO 26262
 *Road vehicles – Functional safety* is an international standard which strives to define
 the needed processes and requirements for development of safety cricital electronics for
 automotive vehicles.This standard uses 5 levels of safety criticality referred to as
@@ -40,7 +40,7 @@ referred to as ASIL D, with the least strict being ASIL A, with a 5th as Quality
 Management (QM) which is similar to DO-178 DAL E. This document strives to allow API
 specifications to be compatible with ISO 26262 ASIL D.
 
-=== IEC 62304
+==== IEC 62304
 *Medical device software – software life cycle processes* is another international 
 standard with similar objectives of the others, but in this case for medical devices.
 Similar to the other standards this standard splits the criticality of software in to categories referred to as Classes. Class 3 having the highest criticality and Class 1 having the lowest. This document strives to allow API specifictions to be compatble with IEC 62304 Class 3 software development requirements.
