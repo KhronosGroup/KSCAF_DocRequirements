@@ -17,6 +17,10 @@
 
 === {chapter-id}.{chapter-sub-id}.{counter:section-id}. Code complexity
 
+Also see:
+
+- Guidelines document chapter 'Reduce function parameters' complexity'
+
 Many of the safety standards require that the code is written in the least complex manor. Many software code quality assessment tools score code on its cyclomatic complexity. The less complex means there are likely less linearly independent paths through a program's source code which results in a lower score. A lower score is a better score and is an indication that the code is easier to understand and so modify with less chance of unforeseen behavior.
 
 The API and its functions' signatures play an important part on how the implementation is coded. The number of parameters in a function should kept to a minimum to help reduce complexity.
