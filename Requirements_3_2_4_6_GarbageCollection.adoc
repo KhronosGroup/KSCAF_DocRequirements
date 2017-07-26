@@ -26,10 +26,10 @@ activities the API should only allow changes to the reference count to be caused
 At no points should the application allow a secondary processing entity to change the reference count
 outside of control of the application.
 
-[width="70%", cols=",^,", options="header"]
+[width="70%", cols="3,^,^", options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
-| DO-178C/ED-12C |  |  
-| ISO 26262      |  |  
-| IEC 62304      |  |   
+| DO-178C/ED-12C |  - |  
+| ISO 26262      |  - |  
+| IEC 62304      |  - |   
 |====================
