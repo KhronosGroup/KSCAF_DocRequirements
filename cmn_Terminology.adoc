@@ -12,7 +12,7 @@
 :Revision: 0.03
 
 ===== shall
-When used with reference in the context of the Khronos SC Requirements Document the word *shall* is the equivalent to a mandatory requirement. Some quality standards like ISO 26262 and RFC 2119 (https://www.ietf.org/rfc/rfc2119.txt[https://www.ietf.org/rfc/rfc2119.txt]).
+When used with reference in the context of the Khronos SC Requirements Document the word *shall* is the equivalent to a mandatory requirement. Some quality standards like ISO 26262 and RFC 2119 give clear definitions for this word and other words like *should* and *may* (https://www.ietf.org/rfc/rfc2119.txt[https://www.ietf.org/rfc/rfc2119.txt]).
 
 ===== should
 When used with reference in the context of the Khronos SC Requirements Document the word *should* is the equivalent to a recommended action.
