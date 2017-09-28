@@ -22,7 +22,7 @@ ifdef::basebackend-html[]
 === {chapter-id}.{chapter-sub-id}.{counter:section-id}. Unique ID
 endif::[]
 
-The SC API shall provide the facility to return a run time implementation unique indentifier specific to that runtime so that is may be interrogated at any time. 
+The SC API shall provide the facility to return a run time implementation unique identifier specific to that runtime so that is may be interrogated at any time. 
 
 For example, such information could be the version number, name, date, release build number or a combination of so that is unique and comprehendible. This information is useful for investigators to understand the components of a system and trace versions with changes.
 

@@ -31,7 +31,7 @@ Deterministic systems are those whose behavior is predictable, balanced and repe
 When describing an API function, all of its parameters and state transitions shall be documented.
 For each state transition there shall be a description of the before and after state. 
 
-If a there is a state transition discovered which is not documented then it is the responsibility of the implementors to report the anomaly to the Khronos Working Group responsible for the SC API specification.
+If a there is a state transition discovered which is not documented then it is the responsibility of the implementers to report the anomaly to the Khronos Working Group responsible for the SC API specification.
 
 [width="70%", cols="3,^,^", options="header"]
 |====================
