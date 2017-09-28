@@ -12,7 +12,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.02
+:Revision: 0.03
 
 === Document Change History
 
@@ -22,6 +22,7 @@ List of the changes that have occurred between one or more releases.
 |=============================
 |Revision | Date                         | Changes 
 |0.01     | 2016-12-01                   | Initial Asciidoc document layout setup and style, no content.
-|0.02     | {docdate}                    | Add content or fix content
+|0.02     | 2017-09-28                   | Added content or fix content since last revision update. Fix chapter numbering for PDF output 
+|0.03     | {docdate}                    | Add content or fix content
 |1.0      | [red yellow-background]#???# | First revision
 |=============================
