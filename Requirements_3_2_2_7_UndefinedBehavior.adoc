@@ -9,13 +9,19 @@
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.02
+:Revision: 0.03
 
 // Hyperlink anchor, the ID matches those in 
 // 3_1_RequirementList.adoc 
 [[gh7]]
 
+ifdef::basebackend-docbook[]
+=== Undefined behavior
+endif::[]
+ifdef::basebackend-html[]
 === {chapter-id}.{chapter-sub-id}.{counter:section-id}. Undefined behavior
+endif::[]
+
 Undefined behavior in a safety critical specification causes issues during
 safety certification efforts due to the lack of firm requirements for the
 given condition. 

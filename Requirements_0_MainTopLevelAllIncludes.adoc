@@ -39,7 +39,7 @@
 :doc_date: {docdate}
 :doctitle: Khronos SCAP Requirements v{doc_version}
 :doc_revision: 1   
-:doc_version: 0.02 
+:doc_version: 0.03 
 :toc-placement: manual
 :toclevels: 2
 :toc:
@@ -47,6 +47,7 @@
 
 // Automatic chapter numbering, use {counter:chapter-id}  
 :chapter-id: 0
+:table-id: 1
 
 <<<
 include::RequirementsCoverPage.adoc[]

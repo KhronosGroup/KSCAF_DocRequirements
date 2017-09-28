@@ -14,18 +14,22 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.02
-
+:Revision: 0.03
 
 // Automatic section numbering, use {counter:section-id}  
 :section-id: 0
 
+ifdef::basebackend-docbook[]
+=== Requirements list
+endif::[]
+ifdef::basebackend-html[]
 === {chapter-id}.{counter:chapter-sub-id}. Requirements list
+endif::[]
 
 The following is a list of all the SCAP requirements when considering designing and implementing a SC API.
 
 .List of requirements
-[caption="Table 3.1.1: ", cols="^4,10", width="90%", options="header", frame="topbot"]
+[caption="Table {counter:table-id}: ", cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
 |Requirement   | Description 
 |<<gh1,{counter:section-id}>>      | Deterministic behavior

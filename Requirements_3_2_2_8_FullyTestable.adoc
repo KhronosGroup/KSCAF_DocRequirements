@@ -9,20 +9,23 @@
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.02
+:Revision: 0.03
 
 // Hyperlink anchor, the ID matches those in 
 // 3_1_RequirementList.adoc 
 [[gh8]]
 
+ifdef::basebackend-docbook[]
+=== Fully testable
+endif::[]
+ifdef::basebackend-html[]
 === {chapter-id}.{chapter-sub-id}.{counter:section-id}. Fully testable
+endif::[]
 
 All behavior of the API must be testable. Every item mentioned in the
 specification must be able to be tested in a repeatable manner. An
-undeterministic API cannot be fully tested as behavior may change from run to
-run.
+undeterministic API cannot be fully tested as behavior may change from run to run.
 
- 
 A requirement may be fully testable but not tested within the scope of
 Khronos conformance tests. Therefore an SC API should contain a rider, or
 Khronos should advertise a general rider that if an API is accepted as
@@ -48,7 +51,7 @@ or thread-safe.
 For the case of negative testing (data values which are known to cause
 failure) this requirement still applies.
 
-Note 1: An SC API implementation while it is conformant to all Khronos
+NOTE: An SC API implementation while it is conformant to all Khronos
 conformance tests does not guarantee that all all the item’s requirements
 have been met where additional requirements have been specified.
 

@@ -5,13 +5,19 @@
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.02
+:Revision: 0.03
 
 // Hyperlink anchor, the ID matches those in 
 // 3_1_RequirementList.adoc 
 [[gh2_3_10]]
 
+ifdef::basebackend-docbook[]
+=== Safety Critical Software Development Guideline and Standards
+endif::[]
+ifdef::basebackend-html[]
 === {chapter-id}.{counter:chapter-sub-id}. Safety Critical Software Development Guideline and Standards
+endif::[]
+
 Experties with the following guidelines and standards have been considered during the
 development of this document. The Khronos Safety Critical Advisory Panel (SCAP) is aware of 
 the existence of other safety related standards and guidelines and welcomes experts in

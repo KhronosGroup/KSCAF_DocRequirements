@@ -9,12 +9,17 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.02
+:Revision: 0.03
 
 // Automatic chapter sub numbering, use {counter:chapter-sub-id}  
 :chapter-sub-id: 0
 
+ifdef::basebackend-docbook[]
+== Overview
+endif::[]
+ifdef::basebackend-html[]
 == {counter:chapter-id}. Overview
+endif::[]
 
 This document contains mandatory API design features that must be adhered when creating a new Khronos API or refactoring an existing Khronos API whose implementation is to be considered for safety critical (SC) software development. 
 

@@ -9,12 +9,17 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.02
+:Revision: 0.03
 
 // Automatic chapter sub numbering, use {counter:chapter-sub-id}  
 :chapter-sub-id: 0
 
+ifdef::basebackend-docbook[]
+== Requirements
+endif::[]
+ifdef::basebackend-html[]
 == {counter:chapter-id}. Requirements
+endif::[]
 
 The requirements listed in table 3.1.1 are all the requirements in this document. However this list is continuously revised with new requirements being added on a regular basis. 
 
