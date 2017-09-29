@@ -23,6 +23,7 @@ List of the changes that have occurred between one or more releases.
 |Revision | Date                         | Changes 
 |0.01     | 2016-12-01                   | Initial Asciidoc document layout setup and style, no content.
 |0.02     | 2017-09-28                   | Added content or fix content since last revision update. Fix chapter numbering for PDF output 
-|0.03     | {docdate}                    | Add content or fix content
+|0.03     | 2017-09-29                   | Fix spelling
+|0.031    | {docdate}                    | Add content or fix content
 |1.0      | [red yellow-background]#???# | First revision
 |=============================
