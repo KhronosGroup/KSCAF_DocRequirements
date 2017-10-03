@@ -1,16 +1,16 @@
 // (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
-// Description: Top level asciidoc file includes all other Asciidoc files to 
-//              build a complete document. All other sections of the document 
-//              are included and referenced from this file. Content can also 
+// Description: Top level asciidoc file includes all other Asciidoc files to
+//              build a complete document. All other sections of the document
+//              are included and referenced from this file. Content can also
 //              appear here, but this is meant for only top level files.
-// 
-// Notes: Khronos document tool chain 
+//
+// Notes: Khronos document tool chain
 //        https://cvs.khronos.org/svn/repos/util/trunk/SpecificationTemplates/Asciidoc/
 //
 //        Asciidoc get you started basic guides
@@ -18,7 +18,7 @@
 //        http://asciidoctor.org/docs/asciidoc-writers-guide/
 //        http://www.methods.co.nz/asciidoc/userguide.html#X17
 //
-//        The info you need to know about but have to go hunting for!!    
+//        The info you need to know about but have to go hunting for!!
 //        https://leanpub.com/awesomeasciidoctornotebook/
 //        http://www.slideshare.net/ufasoli/better-documentation-with-asciidoc-and-asciidoctor
 //        https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc#running-content
@@ -26,9 +26,12 @@
 //
 // 456789|123456789|123456789|123456789|123456789|123456789|123456789|123456789|
 
-// Attributes and text substitutions - some do not work or ignored at least by
-// Ascii Book Editor application
+include::RequirementsCoverPage.adoc[]
+
+// Settings:
+:doctype: book
 :asciimath:
+:icons: font
 :stylesdir: stylesheets/
 :stylesheet: asciidoc.css
 :linkcss:
@@ -38,19 +41,16 @@
 :docname: SCAPRequirements
 :doc_date: {docdate}
 :doctitle: Khronos SCAP Requirements v{doc_version}
-:doc_revision: 1   
-:doc_version: 0.03 
+:doc_revision: 1
+:doc_version: 0.032
 :toc-placement: manual
 :toclevels: 2
 :toc:
 :toc2:
 
-// Automatic chapter numbering, use {counter:chapter-id}  
+// Automatic chapter numbering, use {counter:chapter-id}
 :chapter-id: 0
 :table-id: 1
-
-<<<
-include::RequirementsCoverPage.adoc[]
 
 <<<
 include::cmn_KhronosCopyright.adoc[]
