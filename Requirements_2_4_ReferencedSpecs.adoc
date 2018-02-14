@@ -18,14 +18,9 @@ ifdef::basebackend-html[]
 === {chapter-id}.{counter:chapter-sub-id}. Safety Critical Software Development Guideline and Standards
 endif::[]
 
-Expertise with the following guidelines and standards have been considered during the
-development of this document. The Khronos Safety Critical Advisory Panel (SCAP) is aware of
-the existence of other safety related standards and guidelines and welcomes experts in
-the use of other standards to contribute to this document. Please contact the SCAP via
-https://www.khronos.org/openglsc/ to request membership to the panel.
+Expertise with the following guidelines and standards have been considered during the development of this document. The Khronos Safety Critical Advisory Panel (SCAP) is aware of the existence of other safety related standards and guidelines and welcomes experts in the use of other standards to contribute to this document. Please contact the SCAP working group using the contact information provided on the Khronos web site's SCAP About page to request membership to the panel.
 
-Each requirement in this document tries to list the relevancy to the listed development
-guidelines and standards.
+Each requirement in this document tries to list the relevancy to the listed development guidelines and standards.
 
 ==== DO-178C/ED-12C
 *Software Considerations in Airborne Systems and Equipment Certification* is the safety
