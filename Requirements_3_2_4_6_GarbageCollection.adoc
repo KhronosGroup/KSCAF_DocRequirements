@@ -1,7 +1,7 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khronos Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
@@ -9,10 +9,10 @@
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.03
+:Revision: 0.04
 
-// Hyperlink anchor, the ID matches those in 
-// 3_1_RequirementList.adoc 
+// Hyperlink anchor, the ID matches those in
+// 3_1_RequirementList.adoc
 [[gh6]]
 
 ifdef::basebackend-docbook[]
@@ -27,7 +27,7 @@ Similar to asynchronous immediately handled events, automatic garbage collection
 [width="70%", cols="3,^,^", options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
-| DO-178C/ED-12C |  - |  
-| ISO 26262      |  - |  
-| IEC 62304      |  - |   
+| DO-178C/ED-12C |  - |
+| ISO 26262      |  - |
+| IEC 62304      |  - |
 |====================

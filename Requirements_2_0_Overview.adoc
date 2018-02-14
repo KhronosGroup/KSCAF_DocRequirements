@@ -1,7 +1,7 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
@@ -9,9 +9,9 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.03
+:Revision: 0.04
 
-// Automatic chapter sub numbering, use {counter:chapter-sub-id}  
+// Automatic chapter sub numbering, use {counter:chapter-sub-id}
 :chapter-sub-id: 0
 
 ifdef::basebackend-docbook[]
@@ -21,9 +21,9 @@ ifdef::basebackend-html[]
 == {counter:chapter-id}. Overview
 endif::[]
 
-This document contains mandatory API design features that must be adhered when creating a new Khronos API or refactoring an existing Khronos API whose implementation is to be considered for safety critical (SC) software development. 
+This document contains mandatory API design features that must be strongly considered when creating a new Khronos API or refactoring an existing Khronos API whose implementation is to be considered for safety critical (SC) software development.
 
-The requirements contained here are considered mandatory on the advice from experts in various SC fields or domains. Khronos SCAP adopts requirements based on development and implementation experience of those experts when satisfying a domain’s software or hardware development requirements, safety requirements and development standard. Additionally, some requirements are necessary for a Khronos API to be acceptable in a particular domain, however this does not mean any requirement in this document can be omitted because the API being developed is known not to be used in the domain where the requirement is mandated. All the requirements apply to all Khronos SC API being developed irrespective of whether it is known in advance what limited SC domains an API will be used for.  
+The requirements contained are given on the advice from experts in various SC fields or domains. Khronos SCAP adopts requirements based on development and implementation experience of those experts when satisfying a domain’s software or hardware development requirements, safety requirements and development standard. Additionally, some requirements are necessary for a Khronos API to be acceptable in a particular domain, however this does not mean any requirement in this document can be omitted because the API being developed is known not to be used in the domain where the requirement is mandated. All the requirements apply to all Khronos SC API being developed irrespective of whether it is known in advance what limited SC domains an API will be used for.  
 
 include::Requirements_2_1_SCAPRiderStatement.adoc[]
 

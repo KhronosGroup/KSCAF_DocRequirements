@@ -1,7 +1,7 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khronos Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
@@ -9,10 +9,10 @@
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.03
+:Revision: 0.04
 
-// Hyperlink anchor, the ID matches those in 
-// 3_1_RequirementList.adoc 
+// Hyperlink anchor, the ID matches those in
+// 3_1_RequirementList.adoc
 [[gh8]]
 
 ifdef::basebackend-docbook[]
@@ -30,14 +30,14 @@ A requirement may be fully testable but not tested within the scope of
 Khronos conformance tests. Therefore, an SC API should contain a rider, or
 Khronos should advertise a general rider that if an API is accepted as
 conformant to an SC API specification this does not guarantee that all
-requirements are met.  
+requirements are met.
 
-Examples of such requirements:  
+Examples of such requirements:
 "An implementation must provide documentation of the values of error codes
-and the circumstances under which they are returned"  
+and the circumstances under which they are returned"
 This is testable by inspection of the documentation, but not testable by
-Khronos conformance tests.  
-"The implementation must not use hardware interrupts"  
+Khronos conformance tests.
+"The implementation must not use hardware interrupts"
 Again, this is testable (by running with interrupts disabled), but presents
 difficulties with conformance tests which are necessarily hardware agnostic.
 
@@ -58,7 +58,7 @@ have been met where additional requirements have been specified.
 [width="70%", cols="3,^,^", options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
-| DO-178C/ED-12C | ✓ |  
-| ISO 26262      | ✓ |  
-| IEC 62304      | ✓ |   
+| DO-178C/ED-12C | ✓ |
+| ISO 26262      | ✓ |
+| IEC 62304      | ✓ |
 |====================

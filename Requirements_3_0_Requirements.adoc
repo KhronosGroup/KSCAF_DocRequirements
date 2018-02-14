@@ -1,7 +1,7 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
@@ -9,9 +9,9 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.03
+:Revision: 0.04
 
-// Automatic chapter sub numbering, use {counter:chapter-sub-id}  
+// Automatic chapter sub numbering, use {counter:chapter-sub-id}
 :chapter-sub-id: 0
 
 ifdef::basebackend-docbook[]
@@ -21,11 +21,11 @@ ifdef::basebackend-html[]
 == {counter:chapter-id}. Requirements
 endif::[]
 
-The requirements listed in table 3.1.1 are all the requirements in this document. However this list is continuously revised with new requirements being added on a regular basis. 
+The requirements listed in table 3.1.1 are all the requirements in this document. However this list is continuously revised with new requirements being added on a regular basis.
 
 IMPORTANT: It is therefore recommended that the requirements be periodically reviewed for new or updated requirements.
 
-TIP: If you wish to contribute to the requirements please contact the SCAP working group chair person. 
+TIP: If you wish to contribute to the requirements please contact the SCAP working group chair person.
 
 include::Requirements_3_1_RequirementsList.adoc[]
 
@@ -44,5 +44,3 @@ include::Requirements_3_2_2_7_UndefinedBehavior.adoc[]
 include::Requirements_3_2_8_16054_UniqueID.adoc[]
 
 include::Requirements_3_2_9_23_CodeComplexity.adoc[]
-
-

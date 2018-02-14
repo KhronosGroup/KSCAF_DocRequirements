@@ -1,7 +1,7 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khronos Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
@@ -9,10 +9,10 @@
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.03
+:Revision: 0.08
 
-// Hyperlink anchor, the ID matches those in 
-// 3_1_RequirementList.adoc 
+// Hyperlink anchor, the ID matches those in
+// 3_1_RequirementList.adoc
 [[gh7]]
 
 ifdef::basebackend-docbook[]
@@ -24,7 +24,7 @@ endif::[]
 
 Undefined behavior in a safety critical specification causes issues during
 safety certification efforts due to the lack of firm requirements for the
-given condition. 
+given condition.
 A safety critical specification shall have all conditions fully defined and
 shall not use the word undefined to describe the outcome of any function.
 
@@ -46,7 +46,7 @@ The specification shall always specify what to do with out of bound inputs to AP
 [width="70%", cols="3,^,^", options="header"]
 |====================
 |**Safety critical standard** | **Relevant** | **Notes**
-| DO-178C/ED-12C | ✓ |  
-| ISO 26262      | ✓ |  
-| IEC 62304      | ✓ |   
+| DO-178C/ED-12C | ✓ |
+| ISO 26262      | ✓ |
+| IEC 62304      | ✓ |
 |====================

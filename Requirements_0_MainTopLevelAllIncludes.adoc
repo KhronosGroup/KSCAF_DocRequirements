@@ -1,4 +1,4 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP
 // document
 //
@@ -42,7 +42,7 @@ include::RequirementsCoverPage.adoc[]
 :doc_date: {docdate}
 :doctitle: Khronos SCAP Requirements v{doc_version}
 :doc_revision: 1
-:doc_version: 0.032
+:doc_version: 0.04
 :toc-placement: manual
 :toclevels: 2
 :toc:

@@ -1,7 +1,7 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
@@ -9,9 +9,9 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.03
+:Revision: 0.04
 
-// Automatic chapter sub numbering, use {counter:chapter-sub-id}  
+// Automatic chapter sub numbering, use {counter:chapter-sub-id}
 :chapter-sub-id: 0
 
 // This text is a near duplication of the text in the SCAP Guidelines Introduction chapter
@@ -29,20 +29,20 @@ ifdef::basebackend-html[]
 === {chapter-id}.{counter:chapter-sub-id}. Khronos Safety Critical Advisory Panel
 endif::[]
 
-The Khronos Safety Critical Advisory Panel (SCAP) is a workgroup to create requirements and guidelines for the design of new Khronos safety critical graphics, compute and vision processing APIs or the refactoring of their existing APIs to a safety critical (SC) version. 
+The Khronos Safety Critical Advisory Panel (SCAP) is a workgroup to create requirements and guidelines for the design of new Khronos safety critical graphics, compute and vision processing APIs or the refactoring of their existing APIs to a safety critical (SC) version.
 
 SCAP is an IP free workgroup whose purpose is to formulate SC design requirements and guidelines and not the detailed API design for ratification. The design is undertaken by the appropriate working group itself or a technical sub-group of the working group.
 
 This document is intended for the following types of developers:
 
 •	Developers with no previous experience of developing SC software
-•	Developers designing an API for a non-SC purpose but would like to consider SC recommendations or guidelines in the design 
+•	Developers designing an API for a non-SC purpose but would like to consider SC recommendations or guidelines in the design
 •	Developers with existing SC development experience participating in a Khronos Working Group
 
 SCAP is open to both Khronos members and invited experts from the various SC industries. The Requirements and Guideline documents are open source so they may be continually improved, capture and evolve with the many considerations and practices required by existing SC domains. The goals of SCAP are to:
 
 •	Widen the acceptable use of Khronos APIs for as many SC domains as possible
-•	Reduce potential API design faults or omissions that make meeting SC requirements difficult or impossible 
+•	Reduce potential API design faults or omissions that make meeting SC requirements difficult or impossible
 •	Make it easier to implement development testing
 •	Enabling an implementation to better meet and pass a SC specification
 
@@ -55,7 +55,7 @@ ifdef::basebackend-html[]
 === {chapter-id}.{counter:chapter-sub-id}. The Requirements
 endif::[]
 
-This document, referred to as the Khronos SCAP Requirements document, states requirements that must to be considered and implemented when designing a Khronos API which it to be used for SC software development. 
+This document, referred to as the Khronos SCAP Requirements document which states requirements that must be strongly and implemented when designing a Khronos API which it to be used for SC software development. A reason would normally need to be recorded as to why a particular requirement was not implemented.
 
 ifdef::basebackend-docbook[]
 === The Guidelines
@@ -65,4 +65,3 @@ ifdef::basebackend-html[]
 endif::[]
 
 There is an accompanying Khronos SCAP Guidelines document with development guide lines for developing the same SC API. The Guidelines document is meant to be used together with this Requirements document.
-

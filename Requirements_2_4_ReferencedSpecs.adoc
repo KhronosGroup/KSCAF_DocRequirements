@@ -1,14 +1,14 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP requirements document
-// Text format: asciidoc 8.6.9  
+// Text format: asciidoc 8.6.9
 // Editor: Asciidoc Book Editor
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.03
+:Revision: 0.04
 
-// Hyperlink anchor, the ID matches those in 
-// 3_1_RequirementList.adoc 
+// Hyperlink anchor, the ID matches those in
+// 3_1_RequirementList.adoc
 [[gh2_3_10]]
 
 ifdef::basebackend-docbook[]
@@ -19,10 +19,10 @@ ifdef::basebackend-html[]
 endif::[]
 
 Expertise with the following guidelines and standards have been considered during the
-development of this document. The Khronos Safety Critical Advisory Panel (SCAP) is aware of 
+development of this document. The Khronos Safety Critical Advisory Panel (SCAP) is aware of
 the existence of other safety related standards and guidelines and welcomes experts in
 the use of other standards to contribute to this document. Please contact the SCAP via
-https://www.khronos.org/openglsc/ to request membership to the panel. 
+https://www.khronos.org/openglsc/ to request membership to the panel.
 
 Each requirement in this document tries to list the relevancy to the listed development
 guidelines and standards.
@@ -47,6 +47,6 @@ Management (QM) which is similar to DO-178 DAL E. This document strives to allow
 specifications to be compatible with ISO 26262 ASIL D.
 
 ==== IEC 62304
-*Medical device software – software life cycle processes* is another international 
+*Medical device software – software life cycle processes* is another international
 standard with similar objectives of the others, but in this case for medical devices.
 Similar to the other standards this standard splits the criticality of software in to categories referred to as Classes. Class 3 having the highest criticality and Class 1 having the lowest. This document strives to allow API specifications to be compatible with IEC 62304 Class 3 software development requirements.

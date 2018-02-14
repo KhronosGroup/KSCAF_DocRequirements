@@ -1,8 +1,7 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
@@ -10,10 +9,10 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.01
+:Revision: 0.04
 
-// Automatic appendix lettering, use {counter:appendix-id}  
-:appendix-id: @ 
+// Automatic appendix lettering, use {counter:appendix-id}
+:appendix-id: @
 
 Appendices
 ----------
@@ -21,4 +20,3 @@ include::Requirements_Appendix_A_1.adoc[]
 
 <<<
 include::Requirements_Appendix_B_1.adoc[]
-

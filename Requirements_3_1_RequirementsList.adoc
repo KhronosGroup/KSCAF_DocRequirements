@@ -1,22 +1,22 @@
-// (C) Copyright 2014-2017 The Khronos Group Inc. All Rights Reserved.
+// (C) Copyright 2014-2018 The Khronos Group Inc. All Rights Reserved.
 // Khrono Group Safety Critical API Development SCAP
 // document
-// 
+//
 // Text format: asciidoc 8.6.9
 // Editor:      Asciidoc Book Editor
 //
 // Description: Requirements 3.1 Requirements list
 //
-// Notes: The hyperlink ID, <<gh?????,?>> for each requirement orguideline in 
-//        this documents is a representaion of Khronos SCAP Bugzilla issue 
-//        tracking number. The letter 'gh' before the number must be present for 
+// Notes: The hyperlink ID, <<gh?????,?>> for each requirement orguideline in
+//        this documents is a representaion of Khronos SCAP Bugzilla issue
+//        tracking number. The letter 'gh' before the number must be present for
 //        Asciidoc to accept and create a hyperlink.
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.03
+:Revision: 0.04
 
-// Automatic section numbering, use {counter:section-id}  
+// Automatic section numbering, use {counter:section-id}
 :section-id: 0
 
 ifdef::basebackend-docbook[]
@@ -31,7 +31,7 @@ The following is a list of all the SCAP requirements when considering designing 
 .List of requirements
 [caption="Table {counter:table-id}: ", cols="^4,10", width="90%", options="header", frame="topbot"]
 |=============================
-|Requirement   | Description 
+|Requirement   | Description
 |<<gh1,{counter:section-id}>>      | Deterministic behavior
 |<<gh9,{counter:section-id}>>      | Asynchronous calls
 |<<gh5,{counter:section-id}>>      | Notification of change of state
