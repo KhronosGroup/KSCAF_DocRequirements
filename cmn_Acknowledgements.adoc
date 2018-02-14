@@ -16,26 +16,26 @@
 Safety Critical API Development guidelines and
 requirements is the result of the contributions by many people, representing a cross section of the safety critical software development community in a range of industries. Following is a list of the contributors, including the company that they represented at the time of their contribution:
 
-.Working group chair:
-- Illya Rudkin, Codeplay Ltd
+*Working group chair:* +
+- Illya Rudkin, Codeplay Ltd +
 
-.External expert contributions:
-- Andreas Urbán, SAAB Aerospace
-- Mike Bartley, TVS
+*External expert contributions:* +
+- Andreas Urbán, SAAB Aerospace +
+- Mike Bartley, TVS +
 
-.Khronos contributors:
-- Erik Noreke, independent
-- Ajay Jayaraj, Texas Instruments
-- Bob Shulman, AMD
-- Cary Ashby, Rockwell Collins
-- Daniel Herring, Core Avionics
-- Hwanyoung Lee, Ajou University
-- John McCormickm, Core Avionics
-- Mika Leppinen, Nvidia
-- Pramod Bhardwaj, Xylinx
-- Steve Ramm, Imagination Technologies
-- Steve Viggers, Core Avionics
-- Tom Mainar, Core Avionics
+*Khronos contributors:* +
+- Erik Noreke, independent +
+- Ajay Jayaraj, Texas Instruments +
+- Bob Shulman, AMD +
+- Cary Ashby, Rockwell Collins +
+- Daniel Herring, Core Avionics +
+- Hwanyoung Lee, Ajou University +
+- John McCormickm, Core Avionics +
+- Mika Leppinen, Nvidia +
+- Pramod Bhardwaj, Xylinx +
+- Steve Ramm, Imagination Technologies +
+- Steve Viggers, Core Avionics +
+- Tom Mainar, Core Avionics +
 
 
 NOTE: Up-to-date PDF versions of this specification may be found on the Khronos web site under Documents->SCAP->Accessible to Advisors. You must be logged into the Khronos web site.
