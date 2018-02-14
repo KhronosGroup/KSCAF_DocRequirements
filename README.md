@@ -20,10 +20,10 @@ The aim is to order the document files in the order the content would appear in 
 Files that are common are duplicated in other SCAP documents like SCAP-Requirements (in a file system they would be shared for many documents).
 
 #### To see the document
-Install Asciidoc Editor FX then double click on the file *Guidelines_0_MainTopLevelAllIncludes.adoc*. Should see the document rendered.
+Install Asciidoc Editor FX then double click on the file *Requirements_0_MainTopLevelAllIncludes.adoc*. Should see the document rendered.
 
 #### Status of documents in this directory
-3/10/2016 The documents have been created using Asciidoc Editor FX and the Asciidoctor executable. The majority of the Asciidoc formatting works ok using the when using the Editor FX, some parts like to the TOC work with quirks, some Asciidoc attributes do not appear to work. Using Asciidoc Editor FX is quicker to get off the ground without to much bother and automatically shows an HTML preview. Also an  added bonus is you are able to export from within the Editor both PDF and HTML documents. AsciidocEditorFX is available on most platforms. The editor contains everything including fonts, styles and themes. But it is broken on the Mac OSX High Sierra.
+3/10/2016 The documents have been created using Asciidoc Editor FX and the Asciidoctor executable. The majority of the Asciidoc formatting works ok using the when using the Editor FX, some parts like to the TOC work with quirks, some Asciidoc attributes do not appear to work. Using Asciidoc Editor FX is quicker to get off the ground without to much bother and automatically shows an HTML preview. Also an  added bonus is you are able to export from within the Editor both PDF and HTML documents. AsciidocEditorFX is available on most platforms. The editor contains everything including fonts, styles and themes. But it is broken on the Mac OSX High Sierra. This is still broken as off 14/02/2018.
 
 An alternative is to use the editor Atom with the following packages installed:
 
@@ -42,11 +42,12 @@ An alternative is to use the editor Atom with the following packages installed:
 
 Using Atom means you also need to do a few things manually to enable your work flow. You also need to provide the Asiidoc theme file. From the command line your bring all the elements together to either render a PDF or HTML:
 
-asciidoctor -r asciidoctor-pdf -b pdf -a pdf-style=themes/default-theme.yml Guidelines_0_MainTopLevelAllIncludes.adoc
+asciidoctor -r asciidoctor-pdf -b pdf -a pdf-style=themes/default-theme.yml Requirements_0_MainTopLevelAllIncludes.adoc
 
 Not all Asciidoc layout features are available to embed in the document and therefore means editing the theme file. The theme file is copied from asciidoctor-pdf Git repository and edited a little to try and match the output PDF rendered document with that produced by the Editor FX.
 
 #### What does not work with Asciidoc attributes and AsciidocEditorFX
+* PDF style themes are ignored it seems (works when generating the PDF from the command line)
 * toc::[] not rendered in a specified place
 * docdate and locatedate date format could not change using i.e *locatedate: {sys: +%d-%m-%Y}*
 * Not able to customise header and footer. May be a post .yml CSS thing as the document is rendered to the relevant back end. Asciidoctor?
@@ -54,3 +55,4 @@ Not all Asciidoc layout features are available to embed in the document and ther
 * styledir:, styleinfo:, linkcss: not working
 * table formatting could not change
 * text alignment does not work using *[center/left/right]*
+
