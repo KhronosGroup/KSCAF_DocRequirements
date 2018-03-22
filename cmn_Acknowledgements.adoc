@@ -9,7 +9,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.04
+:Revision: 0.05
 
 === Acknowledgements
 
@@ -21,21 +21,17 @@ requirements is the result of the contributions by many people, representing a c
 
 *External expert contributions:* +
 - Andreas Urbán, SAAB Aerospace +
-- Mike Bartley, TVS +
 
 *Khronos contributors:* +
 - Erik Noreke, independent +
 - Ajay Jayaraj, Texas Instruments +
 - Bob Shulman, AMD +
-- Cary Ashby, Rockwell Collins +
 - Daniel Herring, Core Avionics +
-- Hwanyoung Lee, Ajou University +
-- John McCormickm, Core Avionics +
 - Mika Leppinen, Nvidia +
-- Pramod Bhardwaj, Xylinx +
-- Steve Ramm, Imagination Technologies +
-- Steve Viggers, Core Avionics +
-- Tom Mainar, Core Avionics +
+- Mathias Heyer, Nvidia +
+- Radha Giduthuri, AMD +
+- Julien Olivain, NXP +
 
+NOTE: Up-to-date PDF version of this document may be found on the Khronos web site under Documents->Khronos SC Advisory Forum->Accessible to Advisors. You must be logged into the Khronos web site.
 
-NOTE: Up-to-date PDF versions of this specification may be found on the Khronos web site under Documents->SCAP->Accessible to Advisors. You must be logged into the Khronos web site.
+NOTE: You can also visit the Khronos Safety Critical Advisory Forum web page here for more information at https://www.khronos.org/advisors/kscaf
