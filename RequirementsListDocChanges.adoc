@@ -12,7 +12,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.05
+:Revision: 0.051
 
 _Version: {doc_version}_  +
 _Document Revision: {doc_revision}_ +
@@ -30,5 +30,6 @@ List of the changes that have occurred between one or more releases.
 |0.03     | 2017-09-29                   | Fix spelling
 |0.031    | 2017-10-03                   | Doc layout fix modifications for use with Asciidoctor cli tool for rendering PDF
 |0.04     | 2018-02-14                   | Changed the date of the copyright. Fix where to find these documents on Khronos. Change mandatory to strongly considered. Change chairman.
-|0.05     | 2018-03-22                   | Find and replace 'Safety Critical Advisory Panel' (SCAP) with 'Khronos Safety Critical Advisory Forum' (KSCAF)
+|0.05     | 2018-03-22                   | Find and replace 'Safety Critical Advisory Panel' (SCAP) with 'Khronos Safety Critical Advisory Forum' 
+|0.051    | 2018-03-29                   | Front cover replace 'Safety Critical Advisory Panel' (SCAP) with 'Khronos Safety Critical Advisory Forum'
 |=============================
