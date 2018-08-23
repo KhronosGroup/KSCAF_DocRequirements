@@ -40,9 +40,9 @@ include::RequirementsCoverPage.adoc[]
 :homepage: http://www.khronos.org
 :docname: SCAPRequirements
 :doc_date: {docdate}
-:doctitle: Khronos SCAP Requirements v{doc_version}
+:doctitle: KSCAF Requirements v{doc_version}
 :doc_revision: 1
-:doc_version: 0.051
+:doc_version: 0.052
 :toc-placement: manual
 :toclevels: 2
 :toc:
