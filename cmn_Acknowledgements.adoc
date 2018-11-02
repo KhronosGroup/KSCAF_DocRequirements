@@ -31,6 +31,9 @@ requirements is the result of the contributions by many people, representing a c
 - Mathias Heyer, Nvidia +
 - Radha Giduthuri, AMD +
 - Julien Olivain, NXP +
+- Gregory Sikkens, Core Avionics +
+- Bogdan Naodovic, Nvidia +
+- Mandar Pitale, Nvidia +
 
 NOTE: Up-to-date PDF version of this document may be found on the Khronos(R) web site under Documents->Khronos SC Advisory Forum->Accessible to Advisors. You must be logged into the Khronos web site.
 
