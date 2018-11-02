@@ -9,7 +9,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.052
+:Revision: 0.053
 
 // Automatic chapter sub numbering, use {counter:chapter-sub-id}
 :chapter-sub-id: 0
@@ -23,13 +23,13 @@ ifdef::basebackend-html[]
 endif::[]
 
 ifdef::basebackend-docbook[]
-=== Khronos Safety Critical Advisory Forum
+=== Khronos(R) Safety Critical Advisory Forum
 endif::[]
 ifdef::basebackend-html[]
-=== {chapter-id}.{counter:chapter-sub-id}. Khronos Safety Critical Advisory Forum
+=== {chapter-id}.{counter:chapter-sub-id}. Khronos(R) Safety Critical Advisory Forum
 endif::[]
 
-The Khronos Safety Critical Advisory Forum (KSCAF) is a workgroup to create requirements and guidelines for the design of new Khronos safety critical graphics, compute and vision processing APIs or the refactoring of their existing APIs to a safety critical (SC) version.
+The Khronos(R) Safety Critical Advisory Forum (KSCAF) is a workgroup to create requirements and guidelines for the design of new Khronos safety critical graphics, compute and vision processing APIs or the refactoring of their existing APIs to a safety critical (SC) version.
 
 KSCAF is an IP free workgroup whose purpose is to formulate SC design requirements and guidelines and not the detailed API design for ratification. The design is undertaken by the appropriate working group itself or a technical sub-group of the working group.
 

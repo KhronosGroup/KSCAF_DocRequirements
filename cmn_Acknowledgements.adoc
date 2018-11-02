@@ -9,7 +9,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.05
+:Revision: 0.053
 
 === Acknowledgements
 
@@ -32,6 +32,6 @@ requirements is the result of the contributions by many people, representing a c
 - Radha Giduthuri, AMD +
 - Julien Olivain, NXP +
 
-NOTE: Up-to-date PDF version of this document may be found on the Khronos web site under Documents->Khronos SC Advisory Forum->Accessible to Advisors. You must be logged into the Khronos web site.
+NOTE: Up-to-date PDF version of this document may be found on the Khronos(R) web site under Documents->Khronos SC Advisory Forum->Accessible to Advisors. You must be logged into the Khronos web site.
 
 NOTE: You can also visit the Khronos Safety Critical Advisory Forum web page here for more information at https://www.khronos.org/advisors/kscaf
