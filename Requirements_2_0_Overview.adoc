@@ -9,7 +9,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.052
+:Revision: 0.054
 
 // Automatic chapter sub numbering, use {counter:chapter-sub-id}
 :chapter-sub-id: 0
@@ -21,9 +21,9 @@ ifdef::basebackend-html[]
 == {counter:chapter-id}. Overview
 endif::[]
 
-This document contains mandatory API design features that must be strongly considered when creating a new Khronos API or refactoring an existing Khronos API whose implementation is to be considered for safety critical (SC) software development.
+This document contains mandatory API design artifacts that must be highly recommended when creating a new Khronos API or refactoring an existing Khronos API whose implementation is to be considered for safety critical (SC) software development.
 
-The requirements contained are given on the advice from experts in various SC fields or domains. KSCAF adopts requirements based on development and implementation experience of those experts when satisfying a domain’s software or hardware development requirements, safety requirements and development standard. Additionally, some requirements are necessary for a Khronos API to be acceptable in a particular domain, however this does not mean any requirement in this document can be omitted because the API being developed is known not to be used in the domain where the requirement is mandated. All the requirements apply to all Khronos SC API being developed irrespective of whether it is known in advance what limited SC domains an API will be used for.
+The requirements contained are formulated based on the recommendations from experts in various SC fields or domains. KSCAF adopts requirements based on development and implementation experience of those experts, while fulfilling a domain’s software or hardware development requirements, safety requirements or following specific software development standard. Additionally, some function safety requirements are necessary for a Khronos API to be acceptable in a particular domain, however this does not mean any requirement in this document can be omitted in another domain because the API being developed is known not to be used in that domain where the requirement is mandated. All the requirements apply to all Khronos SC API being developed irrespective of whether it is known in advance what limited SC domains an API will be used for.
 
 include::Requirements_2_1_SCAPRiderStatement.adoc[]
 

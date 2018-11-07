@@ -9,7 +9,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.053
+:Revision: 0.054
 
 // Automatic chapter sub numbering, use {counter:chapter-sub-id}
 :chapter-sub-id: 0
@@ -44,7 +44,7 @@ KSCAF is open to both Khronos members and invited experts from the various SC in
 •	Widen the acceptable use of Khronos APIs for as many SC domains as possible
 •	Reduce potential API design faults or omissions that make meeting SC requirements difficult or impossible
 •	Make it easier to implement development testing
-•	Enabling an implementation to better meet and pass a SC specification
+•	Enabling an implementation to better meet and pass a particular Functional Safety Standard
 
 We assume the reader has experience in software development in general and has at a least some rudimentary understanding of programming best practices and the implications and consequences of writing software if not written with rigor and oversight.
 
@@ -55,7 +55,7 @@ ifdef::basebackend-html[]
 === {chapter-id}.{counter:chapter-sub-id}. The Requirements
 endif::[]
 
-This document, referred to as the KSCAF Requirements document which states requirements that must be strongly and implemented when designing a Khronos API which it to be used for SC software development. A reason would normally need to be recorded as to why a particular requirement was not implemented.
+This document, referred to as the KSCAF Requirements document states the requirements that must be strongly be adhered when designing a Khronos API which is to be used for SC software development. A rational should be given as to why a particular requirement was not followed to assist future developers to why such decision where made.
 
 ifdef::basebackend-docbook[]
 === The Guidelines
@@ -64,4 +64,4 @@ ifdef::basebackend-html[]
 === {chapter-id}.{counter:chapter-sub-id}. The Guidelines
 endif::[]
 
-There is an accompanying KSCAF Guidelines document with development guide lines for developing the same SC API. The Guidelines document is meant to be used together with this Requirements document.
+There is an accompanying KSCAF Guidelines document with development guidelines for developing the same SC API. The Guidelines document is meant to be used together with this Requirements document.

@@ -9,25 +9,25 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.04
+:Revision: 0.54
 
 ===== shall
-When used with reference in the context of the Khronos SC Requirements Document the word *shall* is the equivalent to a mandatory requirement. Some quality standards like ISO 26262 and RFC 2119 give clear definitions for this word and other words like *should* and *may* (https://www.ietf.org/rfc/rfc2119.txt[https://www.ietf.org/rfc/rfc2119.txt]).
+When used with reference in the context of the Khronos SC Requirements Document the word *shall* is the equivalent to a mandatory requirement. Some functional safety standards like ISO 26262 and RFC 2119 give clear definitions for this word and other words like *should* and *may* (https://www.ietf.org/rfc/rfc2119.txt[https://www.ietf.org/rfc/rfc2119.txt]).
 
 ===== should
-When used with reference in the context of the Khronos SC Requirements Document the word *should* is the equivalent to a recommended action.
+When used with reference in the context of the Khronos SC Requirements Document the word *should* is the equivalent to a recommended requirement.
 
 ===== requirement
-When used with reference in the context of the Khronos SC Requirements Document the word *requirement* means a requirement listed in the table of requirements or a requirement sub-part is compulsory, a necessary condition, behavior or action that must be implemented or carried out.
+When used with reference in the context of the Khronos SC Requirements Document the word *requirement* means a requirement listed in the table of requirements or a requirement sub-part that is compulsory, a necessary condition, behavior or action that must be implemented or carried out.
 
 ===== guideline
-When used with reference in the context of the Khronos SC Requirements Document the word *guideline* means a guideline listed in the table of guidelines or a guideline sub-part is a principle, piece of advice, instruction that by the discretion of the reader may or may not be implemented or carry out.
+When used with reference in the context of the Khronos SC Requirements Document the word *guideline* means a guideline listed in the table of guidelines or a guideline sub-part that is a principle, piece of advice, instruction that by the discretion of the reader may or may not be implemented or carried out.
 
 ===== must
-When used alone, this word, or the term required, means that the definition is an absolute requirement of the specification. When followed by not (“must not” ), the phrase means that the definition is an absolute prohibition of the specification.
+When used alone, this word, or the term 'required', means that the definition is an absolute requirement of the specification. When followed by not (“must not” ), the phrase means that the definition is an absolute prohibition of the specification.
 
 ===== should
-When used alone, this word, or the adjective recommended, means that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course. When followed by not (“should not”), the phrase means that there may exist valid reasons in particular circumstances when the particular behavior is acceptable or even useful, but the full implications should be understood and the case carefully weighed before implementing any behavior described with this label.
+When used alone, this word means that there may exist valid reasons in particular circumstances when the particular behavior is acceptable or even useful, but the full implications should be understood and the case carefully weighed before implementing any behavior described with this label. When followed by not (“should not”), means that there exists valid reasons in particular circumstances why a requirement should not be followed, but the full implications must be understood and carefully weighed before choosing a different course.
 
 ===== may
 This word, or the adjective optional, means that an item is truly optional. One vendor may choose to include the item because a particular marketplace requires it or because the vendor 4
