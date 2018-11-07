@@ -55,3 +55,10 @@ Not all Asciidoc layout features are available to embed in the document and ther
 * styledir:, styleinfo:, linkcss: not working
 * table formatting could not change
 * text alignment does not work using *[center/left/right]*
+
+#### Mac OSX installation Asciidoctor builder
+1. Install Ruby via the Mac installation of Git
+2. Goto the Asciidoctor home page and follow the guidelines for the Mac OSX
+3. Install Homebrew for the Mac (Execute in a terminal '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)")
+4. Execute brew install asciidoctor
+5. Given the command line above to build the PDF document you will need to also install the asciidoctor-pdf library file. Execute gem install asciidoctor-pdf --pre.
