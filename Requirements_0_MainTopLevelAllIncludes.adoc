@@ -42,7 +42,7 @@ include::RequirementsCoverPage.adoc[]
 :doc_date: {docdate}
 :doctitle: KSCAF Requirements v{doc_version}
 :doc_revision: 1
-:doc_version: 0.054
+:doc_version: 0.055
 :toc-placement: manual
 :toclevels: 2
 :toc:

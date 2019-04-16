@@ -5,7 +5,7 @@
 
 :Author: Daniel Herring
 :Author Initials: DMH
-:Revision: 0.052
+:Revision: 0.055
 
 // Hyperlink anchor, the ID matches those in
 // 3_1_RequirementList.adoc
@@ -45,3 +45,6 @@ specifications to be compatible with ISO 26262 ASIL D.
 *Medical device software – software life cycle processes* is another international
 standard with similar objectives of the others, but in this case for medical devices.
 Similar to the other standards this standard splits the criticality of software in to categories referred to as Classes. Class 3 having the highest criticality and Class 1 having the lowest. This document strives to allow API specifications to be compatible with IEC 62304 Class 3 software development requirements.
+
+==== Future Airborne Capability Environment (FACE Consortium)
+The *Open Group Future Airborne Capability Environment* formed in 2010 to define an open avionics environment for all military airborne platform types. Today, it is a real-time software-focused professional group made up of industry suppliers, customers, academia, and users. The FACE approach is a government-industry software standard and business strategy for acquisition of affordable software systems that promotes innovation and rapid integration of portable capabilities across programs. Again like others it considers safety at all levels including importantly the contract of a software API.
