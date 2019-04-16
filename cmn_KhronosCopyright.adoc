@@ -9,9 +9,9 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.053
+:Revision: 0.056
 
-(C) Copyright 2014-2018 The Khronos(R) Group Inc. All Rights Reserved. This specification is protected by copyright laws and contains material proprietary to the Khronos Group, Inc. It or any components may not be reproduced, republished, distributed, transmitted, displayed, broadcast, or otherwise exploited in any manner
+(C) Copyright 2014-2019 The Khronos(R) Group Inc. All Rights Reserved. This specification is protected by copyright laws and contains material proprietary to the Khronos Group, Inc. It or any components may not be reproduced, republished, distributed, transmitted, displayed, broadcast, or otherwise exploited in any manner
 without the express prior written permission of Khronos Group. You may use this specification for implementing the functionality therein, without altering or removing any trademark, copyright or other notice from the specification, but the receipt or
 possession of this specification does not convey any rights to reproduce, disclose, or distribute its contents, or to manufacture,
 use, or sell anything that it may describe, in whole or in part.
