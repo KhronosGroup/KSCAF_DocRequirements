@@ -12,7 +12,7 @@
 
 :Author: Illya Rudkin (spec editor)
 :Author Initials: IOR
-:Revision: 0.057
+:Revision: 0.058
 
 _Version: {doc_version}_  +
 _Document Revision: {doc_revision}_ +
@@ -37,5 +37,6 @@ List of the changes that have occurred between one or more releases.
 |0.054    | 2018-11-07                   | Various grammatical and sentence structure changes or fixes
 |0.055    | 2019-04-16                   | Add reference to the organisation Future Airborne Capability Environment (FACE)
 |0.056    | 2019-04-16                   | Fix Khronos copyright date '18 --> '19
-|0.057    | 2019-08-15                   | Change the Khronos copyright page to have the Creative Commons CC BY-SA text 
+|0.057    | 2019-08-15                   | Change the Khronos copyright page to have the Creative Commons CC BY-SA text
+|0.058    | 2019-08-15                   | Updated the document's list of contribution acknowledgements 
 |=============================
